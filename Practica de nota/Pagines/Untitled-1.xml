@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Recepta [
+<!ELEMENT Recepta (Nom, Descripcion?, Ingredients?, Instruccions?)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Ingredients (Ingredient*)>
+<!ELEMENT Ingredient (Quantitat, Item)>
+<!ELEMENT Quantitat (#PCDATA)>
+<!ATTLIST Quantitat unitat CDATA #REQUIRED>
+<!ELEMENT Item (#PCDATA)>
+<!ATTLIST Item opcional CDATA "0" vegetarià CDATA "si">
+<!ELEMENT Instruccions (Pas+)>
+<!ELEMENT Pas (#PCDATA)>
+]>
+<Recepta>
+    <Nom>Truita de creïlles</Nom>
+    <Descripcion>
+La tradicional i típica truita de creïlles.
+    </Descripcion>
+    <Ingredients>
+        <Ingredient>
+            <Quantitat unitat="peça">3</Quantitat>
+            <Item>Creïlla</Item>
+        </Ingredient>
+        <Ingredient>
+            <Quantitat unitat="peça">2</Quantitat>
+            <Item>Ous</Item>
+        </Ingredient>
+        <Ingredient>
+            <Quantitat unitat="litre">0.1</Quantitat>
+            <Item>Oli</Item>
+        </Ingredient>
+    </Ingredients>
+    <Instruccions>
+        <Pas>
+Pelar i tallar les creïlles en rodanxes
+        </Pas>
+        <Pas>
+Batre els ous i mesclar amb les creïlles
+        </Pas>
+        <Pas>
+Calfar oli en una paella
+        </Pas>
+        <Pas>
+Tirar la mescla en la paella i quallar la mescla per tots dos costats
+        </Pas>
+    </Instruccions>
+</Recepta>

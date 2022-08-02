@@ -1,0 +1,13 @@
+Veamos.
+
+Vuelvo a tener el problema de los nombres, hay paginas que son Pagina x y otras que tienen 
+su nombre en concreto, disculpa, si lo cambio tengo que cambiar muchas cosas mas antes.
+
+Tambien todo esta en un solo Css llamado P2CSS perdon por el nombre, pero estaba destinado a 
+la pagina dos
+la cual al final no se implemento.
+
+La pagina 2 esta ahi pero no esta acabada, no la tomes en cuenta, aunque si quieres verla no 
+hay problema.
+
+Disculpa las imagenes, acabe descargando muchas y no he echo limpieza asi que muchas no se usan.

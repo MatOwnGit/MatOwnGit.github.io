@@ -1,0 +1,2618 @@
+/*--------------------------------------------------------------------------Start---------------------------------------------------------------*/
+body{
+    background-color: #000;
+    font-family:Determinacion;
+    color: white;
+    font-size: large;
+    margin:10px;
+}
+p{
+    line-height: 1.2;
+    text-align: justify;
+    margin:0px;
+    border: 10px solid #ffffff;
+    background-color: #000000;
+    padding: 20px;
+}
+html::-webkit-scrollbar{
+    background-image: linear-gradient(180deg, rgb(158, 158, 158) 0%, #000 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:rgba(88, 88, 88, 0.658);
+    border-radius: 100px;
+}
+@font-face {
+    font-family: undertale;
+    src: url(../Fonts/MonsterFriendFore.otf);
+}
+@font-face {
+    font-family: Determinacion;
+    src: url(../Fonts/DTM-Mono.ttf);
+}
+@font-face {
+    font-family: Gaster;
+    src: url(../Fonts/undertale-wingdings.otf);
+}
+@font-face {
+    font-family: Deltarune;
+    src: url(../Fonts/deltarune.ttf);
+}
+@font-face {
+    font-family: mother;
+    src: url(../Fonts/EarthBound.ttf);
+}
+@font-face {
+    font-family: Homestuck;
+    src: url(../Fonts/courierstuck.ttf);
+}
+.Gaster{
+    font-family: Gaster;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.Total{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 1px;
+}
+.main {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.main h1{
+    font-family:undertale;
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.extra {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+ }
+ .left {
+     float: left;
+     width: 50%;
+     text-align: justify;
+ }
+ .right {
+     float: right;
+     width: 50%;
+     text-align: justify;
+ }
+ .maxLeft {
+     float: left;
+     width: 60%;
+     text-align: justify;
+ }
+ .maxLeft h1{
+     font-family:undertale;
+     text-align: left;
+     font-size: 400%;
+     margin-bottom: 10px;
+ }
+ .minRight {
+     float: right;
+     width: 40%;
+     text-align: justify;
+ }
+ .minLeft {
+     float: left;
+     width: 40%;
+     text-align: justify;
+ }
+ .maxRight {
+     float: right;
+     width: 60%;
+     text-align: justify;
+ }
+ .maxRight h1{
+     font-family:undertale 
+     ;text-align: right;
+     font-size: 400%;
+     margin-bottom: 10px;
+ }
+/*-------------------------------------------------------------------------------------Pagina 1-------------------------------------------------------------------------------------*/
+.menu0 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 1px;
+}
+.main0 {
+    float: left;
+    width: 50%;
+}
+.main0 h1{
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-family: UNDERTALE;
+}
+.typewritting{
+    height: 13.5vh;
+    line-height: 1.2;
+    text-align: justify;
+    font-size: 75%;
+}
+.mainbutton {
+    margin-top: -13px;
+    float: left;
+    width: 50%;
+}
+.partsU{
+    float: left;
+    width: 20%;
+
+}
+.partsOP{
+    float: left;
+    width: 20%;
+
+}
+.partsDelta{
+    margin-left: -3%;
+    margin-right: -3%;
+    float: left;
+    width: 20%;
+}   
+.partsMUS{
+    margin-right: -3%;
+    float: left;
+    width: 20%;
+} 
+.partsBio{
+    margin-left: 5%;
+    margin-right: -3%;
+    float: left;
+    width: 20%;
+}
+.links{
+    width: 33%;
+    margin:auto;
+    display: block;
+}
+.left0 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.right0 {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.br{
+    display: none;
+}
+.button {
+    width: 165px;
+    height: 63px;
+    background: url("../Imagenes/BBiografia1.png") no-repeat;
+    margin-top: 20px;
+}
+.button:hover {
+    background: url("../Imagenes/BBiografia2.png") no-repeat;
+    width: 165px;
+    height: 63px;
+    margin-top: 20px;
+}
+.button2 {
+    width: 165px;
+    height: 63px;
+    background: url("../Imagenes/BOtros_proyectos.png") no-repeat;
+    margin-top: 20px;
+}
+.button2:hover {
+    background: url("../Imagenes/BOtros_proyectos2.png") no-repeat;
+    width: 165px;
+    height: 63px;
+    margin-top: 20px;
+}
+.button3 {
+    width: 165px;
+    height: 63px;
+    background: url("../Imagenes/Undertale.png") no-repeat;
+    margin-top: 20px;
+}
+.button3:hover {
+    background: url("../Imagenes/Undertale2.png") no-repeat;
+    width: 165px;
+    height: 63px;
+    margin-top: 20px;
+}
+.button4 {
+    width: 165px;
+    height: 63px;
+    background: url("../Imagenes/Deltarune1.png") no-repeat;
+    margin-top: 20px;
+}
+.button4:hover {
+    background: url("../Imagenes/Deltarune2.png") no-repeat;
+    width: 165px;
+    height: 63px;
+    margin-top: 20px;
+}
+.button5 {
+    
+    width: 165px;
+    height: 63px;
+    background: url("../Imagenes/BMusica1.png") no-repeat;
+    margin-top: 20px;
+}
+.button5:hover {
+    background: url("../Imagenes/BMusica2.png") no-repeat;
+    width: 165px;
+    height: 63px;
+    margin-top: 20px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    width: 165px;
+    height: 63px;
+    transform: scale(.7);
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 30%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  #reset{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 145%;
+    margin-top: 43px;
+    margin:auto;
+    display: block;
+    float:left;
+}
+#reset:hover{
+    color: #eeff00;
+    text-decoration: none;
+    font-size: 145%;
+    margin-top: 43px;
+    margin:auto;
+    display: block;
+    float:left;
+}
+#rick{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 145%;
+    margin:auto;
+    display: block;
+    float:left;
+}
+#rick:hover{
+    color: #eeff00;
+    text-decoration: none;
+    font-size: 145%;
+    margin:auto;
+    display: block;
+    float:left;
+}
+.enlace{
+    color:#fff;
+    text-decoration: none;
+}
+.enlace:hover{
+    color:#eeff00;
+    text-decoration: none;
+}
+@media screen and (max-width: 1380px) and (min-width: 1188px) {
+    .typewritting{
+        height: 16.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 1188px) and (min-width: 1024px)  {
+    .typewritting{
+        height: 19.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  
+@media screen and (max-width: 1024px) {
+    .main0{
+        float: left;
+        width: 100%;
+    }
+    .menu0 {
+        float: left;
+        width: 0%;
+    }
+    .typewritting{
+        height: 12.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+    .mainbutton {
+        margin-top: -13px;
+        float: left;
+        width: 100%;
+    }
+    .main0 h1{
+        margin-bottom: 6px;
+        margin-top: 6px;
+        font-family: UNDERTALE;
+    }
+    .mainbutton {
+        margin-top: -13px;
+        float: left;
+        width: 100%;
+    }
+    .links{
+        width: 90%;
+        margin:auto;
+        display: block;
+    }
+    #reset{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 145%;
+        margin-top: 43px;
+        margin:auto;
+        display: block;
+        float:revert;
+    }
+    #reset:hover{
+        color: #eeff00;
+        text-decoration: none;
+        font-size: 145%;
+        margin-top: 43px;
+        margin:auto;
+        display: block;
+        float:revert;
+    }
+    #rick{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 145%;
+        margin-right: 7%;
+        display: block;
+        float:right;
+    }
+    #rick:hover{
+        color: #eeff00;
+        text-decoration: none;
+        font-size: 145%;
+        margin-right: 7%;
+        display: block;
+        float:right;
+    }
+  }
+  @media screen and (max-width: 626px) {
+    #reset{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 145%;
+        margin-top: 43px;
+        margin:auto;
+        display: block;
+        float:left;
+    }
+    #reset:hover{
+        color: #eeff00;
+        text-decoration: none;
+        font-size: 145%;
+        margin-top: 43px;
+        margin:auto;
+        display: block;
+        float:left;
+    }
+    #rick{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 145%;
+        margin:auto;
+        display: block;
+        float:left;
+    }
+    #rick:hover{
+        color: #eeff00;
+        text-decoration: none;
+        font-size: 145%;
+        margin:auto;
+        display: block;
+        float:left;
+    }
+  }
+  @media screen and (max-width: 912px) and (min-width:708px) {
+    .typewritting{
+        height: 14.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 708px) and (min-width:615px) {
+    .typewritting{
+        height: 16vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 615px) and (min-width:610px) {
+    .typewritting{
+        height: 17vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 610px) and (min-width:595px) {
+    .typewritting{
+        height: 17.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 595px)and (min-width:489px)  {
+    .typewritting{
+        height: 18vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 489px)and (min-width:445px)  {
+    .typewritting{
+        height: 22vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 445px)  {
+    .typewritting{
+        height: 23vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 350px)and (max-height:350px)  {
+    .typewritting{
+        height: 54.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 1385px) and (min-width: 1024px) {
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 5%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+    
+  }
+  @media screen and (max-width: 695px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 5%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 650px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 4%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 3%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 2%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 1%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 450px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: 0%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 450px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: -3%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 390px) and (min-width: 375px){
+    .partsU{
+        margin-left: 14%;
+        float: left;
+        width: 20%;
+    
+    }
+    .partsOP{
+        margin-right: 42%;
+        float: right;
+        width: 5%;
+    }
+    .partsDelta{
+        margin-left: 14%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }   
+    .partsMUS{
+        margin-right: -3%;
+        float: left;
+        width: 15%;
+        margin-left: 20%;
+    } 
+    .partsBio{
+        margin-left: -4%;
+        margin-right: -3%;
+        float: left;
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .partsU{
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .partsOP{
+        float: right;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .partsDelta{
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }   
+    .partsMUS{
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    } 
+    .partsBio{
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .br{
+        display: block;
+    }
+    .button {
+        transform: scale(1.2);
+        width: 165px;
+        height: 63px;
+        background: url("../Imagenes/BBiografia1.png") no-repeat;
+        margin-top: 20px;
+    }
+    .button:hover {
+        transform: scale(1.2);
+        background: url("../Imagenes/BBiografia2.png") no-repeat;
+        width: 165px;
+        height: 63px;
+        margin-top: 20px;
+    }
+    .button2 {
+        transform: scale(1.2);
+        width: 165px;
+        height: 63px;
+        background: url("../Imagenes/BOtros_proyectos.png") no-repeat;
+        margin-top: 20px;
+    }
+    .button2:hover {
+        transform: scale(1.2);
+        background: url("../Imagenes/BOtros_proyectos2.png") no-repeat;
+        width: 165px;
+        height: 63px;
+        margin-top: 20px;
+    }
+    .button3 {
+        transform: scale(1.2);
+        width: 165px;
+        height: 63px;
+        background: url("../Imagenes/Undertale.png") no-repeat;
+        margin-top: 20px;
+    }
+    .button3:hover {
+        transform: scale(1.2);
+        background: url("../Imagenes/Undertale2.png") no-repeat;
+        width: 165px;
+        height: 63px;
+        margin-top: 20px;
+    }
+    .button4 {
+        transform: scale(1.2);
+        width: 165px;
+        height: 63px;
+        background: url("../Imagenes/Deltarune1.png") no-repeat;
+        margin-top: 20px;
+    }
+    .button4:hover {
+        transform: scale(1.2);
+        background: url("../Imagenes/Deltarune2.png") no-repeat;
+        width: 165px;
+        height: 63px;
+        margin-top: 20px;
+    }
+    .button5 {
+        transform: scale(1.2);
+        width: 165px;
+        height: 63px;
+        background: url("../Imagenes/BMusica1.png") no-repeat;
+        margin-top: 20px;
+    }
+    .button5:hover {
+        transform: scale(1.2);
+        background: url("../Imagenes/BMusica2.png") no-repeat;
+        width: 165px;
+        height: 63px;
+        margin-top: 20px;
+    }
+    .tooltip {
+        position: relative;
+        display: block;
+        margin: auto;
+        border-bottom: 1px dotted black;
+        width: 165px;
+        height: 63px;
+        transform: scale(.7);
+      }
+      
+      .tooltip .tooltiptext {
+        margin-bottom: 5.5vh;
+        visibility: hidden;
+        width: 200px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 30%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+  }
+  @media screen and (max-height: 600px) {
+    .typewritting{
+        height: 16.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-height: 490px) {
+    .typewritting{
+        height: 19.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-height: 420px) {
+    .typewritting{
+        height: 22.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-height: 360px) and (min-height:350px) {
+    .typewritting{
+        height: 26.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+  @media screen and (max-height:350px) and (max-width: 350px)  {
+    .typewritting{
+        height: 5.5vh;
+        line-height: 1.2;
+        text-align: justify;
+        font-size: 75%;
+    }
+  }
+
+/*--------------------------------------------------------------Pagina 2---------------------------------------------------------------------------------------------*/
+
+.left1 {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.right1 {
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+.menu1 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 1px;
+}
+.main1 {
+    float: left;
+    width: 80%;
+    text-align: justify;
+}
+.maxLeft1 {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeft1 h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRight1 {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.maxLeftD {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftD h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightD {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.maxLeftH {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftH h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightH {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.maxLeftT {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftT h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightT {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.minLeft1 {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRight1 {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRight1 h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minLeftM {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightM {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightM h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minLeftU {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightU {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightU h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minLeftE {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightE {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightE h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.maxRight1img {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.down1_0{
+    margin: 0px;
+    display: none;
+}
+.down1_1{
+    margin: 0px;
+    display: none;
+}
+.down1_2{
+    margin: 0px;
+    display: none;
+}
+.down1_3{
+    margin: 0px;
+    display: none;
+}
+.down1_4{
+    margin: 0px;
+    display: none;
+}
+.MB{
+    line-height: 1.2;
+    inline-size: 72%;
+    padding-top: 20%;
+    display: block;
+    margin:auto;
+}
+@media screen and (max-width: 1079px) {
+    .maxLeftT {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .minRightT {
+        float: right;
+        width: 0%;
+        text-align: left;
+        display: none;
+    }
+    .down1_0{
+        display: block;
+    }
+}
+@media screen and (max-width: 1079px) and (min-width: 576px) {
+    .maxLeftT h1{
+        font-family:undertale;
+        text-align: center;
+        font-size: 400%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .maxLeftT h1{
+        font-family:undertale 
+        ;text-align: center;
+        font-size: 400%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .minLeftE {
+        float: left;
+        width: 0%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightE {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .down1_1{
+        display: block;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .maxLeftH {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .minRightH {
+        float: right;
+        width: 0%;
+        text-align: justify;
+        display: none;
+    }
+    .down1_2{
+        display: block;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .minLeftU {
+        float: left;
+        width: 0%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightU {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .down1_3{
+        display: block;
+    }
+}
+@media screen and (max-width: 1388px) {
+    .maxLeftD {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .minRightD {
+        float: right;
+        width: 0%;
+        text-align: justify;
+        display: none;
+    }
+    .down1_4{
+        display: block;
+    }
+}
+@media screen and (max-width: 945px) {
+    .minLeftM {
+        float: left;
+        width: 0%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightM {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .MB{
+        line-height: 1.2;
+        inline-size: 72%;
+        padding-top: 2%;
+        display: block;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 740px) {
+    
+    .MB{
+        line-height: 1.2;
+        inline-size: 100%;
+        padding-top: 2%;
+        display: block;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    .left1 {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+    .right1 {
+        margin-top: 2vh;
+        float: right;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/*--------------------------------------------------------------------------Pagina 4--------------------------------------------------------------------------------*/
+
+.menu4 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 1px;
+}
+.main4 {
+    float: left;
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+.main4 h1{
+    font-family:undertale;
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.maxLeft {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeft h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRight {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.minLeft {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRight {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRight h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minLeftMother {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightMother {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightMother h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.max1{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.Dark_Ness{
+    width:60%;
+}
+.maxLeftHome {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftHome h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightHome {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.max2{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.zodiaco{
+    width:50%;
+}
+.minLeftT {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightT {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightT h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.max3{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.mona_china{
+    width:60%;
+}
+.maxLeft3M {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeft3M h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRight3M {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.max4{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.Iimg{
+    display: none;
+}
+.Lucas{
+    margin:auto;
+    display: block;
+    width: 60%;
+}
+.Perro{
+    margin:auto;
+    display: block;
+    width: 45%;
+}
+.minLeftY {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightY {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightY h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.max5{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.Iimg2{
+    display: none;
+}
+.maxLeftU {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftU h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightU {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.max6{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.Kokoro{
+    padding-top: 65%;
+    width:50%;
+    margin:auto;
+    display: block;
+}
+.minLeftD {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightD {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.Lancer{
+    width:60%;
+    margin:auto;
+    display: block;
+}
+.maxLeftD2 {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftD2 h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightD2 {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.max7{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.Queen{
+    width:50%;
+    margin:auto;
+    display: block;
+}
+.minLeftG {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightG {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightG h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.max8{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.GF{
+    width:60%;
+    margin:auto;
+    display: block;
+}
+.maxLeftP {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.maxLeftP h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.minRightP {
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+.max9{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.Poke{
+    width:30%;
+    margin:auto;
+    display: block;
+}
+.minLeftS {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.maxRightS {
+    float: right;
+    width: 60%;
+    text-align: justify;
+}
+.maxRightS h1{
+    font-family:undertale 
+    ;text-align: right;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.max10{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 1.2;
+}
+.SS{
+    width:60%;
+    margin:auto;
+    display: block;
+}
+@media screen and (max-width: 1024px) {
+    .main4{
+        float: left;
+        width: 100%;
+    }
+    .menu4 {
+        float: left;
+        width: 0%;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .max1{
+        display: block;
+    }
+    .minLeftMother {
+        float: left;
+        width: 100%;
+        text-align: justify;
+    }
+    .maxRightMother {
+        float: right;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightMother h1{
+        font-family:undertale 
+        ;text-align: right;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .Dark_Ness{
+        width:30%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Dark_Ness{
+        width:60%;
+    }
+}
+@media screen and (max-width: 1190px) {
+    .max2{
+        display: block;
+    }
+    .maxLeftHome {
+        float: left;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxLeftHome h1{
+        font-family:undertale;
+        text-align: left;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .minRightHome {
+        float: right;
+        width: 100%;
+        text-align: justify;
+    }
+    .zodiaco{
+        width:25%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .zodiaco{
+        width:35%;
+    }
+}
+@media screen and (max-width: 1128px) {
+    .max3{
+        display: block;
+    }
+    .minLeftT {
+        float: left;
+        width: 100%;
+        text-align: justify;
+    }
+    .maxRightT {
+        float: right;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightT h1{
+        font-family:undertale 
+        ;text-align: right;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .mona_china{
+        width:30%;
+    }
+}
+@media screen and (max-width: 815px) {
+    .mona_china{
+        width:45%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .max4{
+        display: block;
+    }
+    .maxLeft3M {
+        float: left;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxLeft3M h1{
+        font-family:undertale;
+        text-align: left;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .minRight3M {
+        float: right;
+        width: 100%;
+        text-align: justify;
+        display: none;
+    }
+    .Iimg{
+        display: block;
+    }
+}
+@media screen and (max-width: 923px) {
+    .max5{
+        display: block;
+    }
+    .minLeftY {
+        float: left;
+        width: 100%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightY {
+        float: right;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightY h1{
+        font-family:undertale 
+        ;text-align: right;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .Iimg2{
+        display: block;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .max6{
+        display: block;
+    }
+    .maxLeftU {
+        float: left;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxLeftU h1{
+        font-family:undertale;
+        text-align: left;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .minRightU {
+        float: right;
+        width: 100%;
+        text-align: justify;
+    }
+    .Kokoro{
+        width:30%;
+        margin:auto;
+        display: block;
+        padding-top: 1%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Kokoro{
+        width:40%;
+        margin:auto;
+        display: block;
+        padding-top: 1%;
+    }
+}
+@media screen and (max-width: 1330px) {
+    .minLeftD {
+        float: left;
+        width: 100%;
+        text-align: justify;
+    }
+    .maxRightD {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .Lancer{
+        width:60%;
+        margin:auto;
+        display: block;
+        padding-bottom: 2%;
+    }
+}
+@media screen and (max-width: 995px) {
+    .max7{
+        display: block;
+    }
+    .maxLeftD2 {
+        float: left;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxLeftD2 h1{
+        font-family:undertale;
+        text-align: left;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .minRightD2 {
+        float: right;
+        width: 100%;
+        text-align: justify;
+    }
+    .Queen{
+        width:30%;
+        margin:auto;
+        display: block;
+        padding-top: 1%;
+    }
+}
+@media screen and (max-width: 1322px) {
+    .max8{
+        display: block;
+    }
+    .minLeftG {
+        float: left;
+        width: 100%;
+        text-align: justify;
+    }
+    .maxRightG {
+        float: right;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightG h1{
+        font-family:undertale 
+        ;text-align: right;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .GF{
+        width:35%;
+    }
+}
+@media screen and (max-width: 625px){
+    .GF{
+        width:60%;
+    }
+}
+@media screen and (max-width: 1340px) {
+    .Poke{
+       width:40%;
+    }
+   }
+@media screen and (max-width: 1085px) {
+ .Poke{
+    width:55%;
+ }
+}
+@media screen and (max-width: 991px) {
+    .max9{
+        display: block;
+    }
+    .maxLeftP {
+        float: left;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxLeftP h1{
+        font-family:undertale;
+        text-align: left;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .minRightP {
+        float: right;
+        width: 100%;
+        text-align: justify;
+    }
+    .Poke{
+        width:30%;
+     }
+}
+@media screen and (max-width: 992px) {
+    .max10{
+        display: block;
+    }
+    .minLeftS {
+        float: left;
+        width: 100%;
+        text-align: justify;
+    }
+    .maxRightS {
+        float: right;
+        width: 60%;
+        text-align: justify;
+        display: none;
+    }
+    .maxRightS h1{
+        font-family:undertale 
+        ;text-align: right;
+        font-size: 400%;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .SS{
+        width:40%;
+    }
+}
+
+
+/*----------------------------------------------------------------------------Pagina 5------------------------------------------------------------------------*/
+
+
+#capa1{ 
+    position:relative; 
+    z-index:1; 
+}
+#capa2{ 
+    position:absolute; 
+    z-index:0; 
+    margin-top: -90px;
+} 
+.Total2{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0);
+    opacity: 0;
+}
+.Total2 a{
+    color: rgba(255, 255, 255, 0);
+}
+.glow{
+    font-family: Deltarune;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  animation-iteration-count: infinite;
+  animation-name:glow;
+  animation-duration:1s;
+}
+.menu5 {
+    float: left;
+    width: 15%;
+    text-align: center;
+    height: 1px;
+}
+.main5 {
+    float: left;
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+.main5 h1{
+    text-align: center;
+    font-size: 625%;
+    margin-bottom: 35px;
+    margin-top: 36px;
+}
+#HistoriaM1{
+    margin-bottom: 46vh;
+    margin-top: 16vh;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 10px solid rgb(70, 19, 19);
+    color:#000;
+    line-height: 1.2;
+    padding: 10px;
+}
+#HistoriaM2{
+    margin-bottom: 14vw;
+    margin-top: 16vh;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 10px solid rgb(121, 57, 5);
+    color:#000;line-height: 1.2;
+    padding: 10px; 
+}
+/*.Mother_2{
+    margin-top: 46vw;
+}
+@media screen and (max-width: 1475px) {
+    .Mother_2{
+        margin-top: 53vw;
+    }
+}
+@media screen and (max-width: 1467px) {
+    .Mother_2{
+        margin-top: 48vw;
+    }
+}*/
+@media screen and (max-width: 1495px) {
+    #HistoriaM2{
+    margin-bottom: 4vw;
+    }
+}
+@media screen and (max-width: 1467px) {
+    #HistoriaM2{
+    margin-bottom: 30vh;
+    }
+}
+@media screen and (max-width: 1275px) {
+    #HistoriaM2{
+    margin-bottom: 5vh;
+    }
+}
+@media screen and (max-width: 1441px) {
+    #HistoriaM1{
+    margin-bottom: 14vh;
+    }
+}
+@media screen and (max-width: 1375px) {
+    .main5{
+        float: left;
+        width: 100%;
+    }
+    .menu5 {
+        float: left;
+        width: 0%;
+    }
+    #HistoriaM1{
+        margin-bottom: 36vh;
+        }
+}
+@media screen and (max-width: 1308px) {
+    #HistoriaM1{
+    margin-bottom: 24vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #HistoriaM1{
+    margin-bottom: 7vh;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .Mother_1{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1253px) {
+    .Mother_2{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1467px) AND (min-width: 1375px) {
+    .Mother_3{
+        margin-top: 20vw;
+    }
+}
+@media screen and (max-width: 1315px) {
+    .Mother_3{
+        margin-top: 11vw;
+    }
+}
+@media screen and (max-width: 1188px) {
+    .Mother_3{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1395px) {
+    .Mother_H{
+        margin-top: 20vw;
+    }
+}
+@media screen and (max-width: 1375px) {
+    .Mother_H{
+        margin-top: -5vw;
+    }
+}
+@media screen and (max-width: 1325px) {
+    .Mother_H{
+        margin-top: 10vw;
+    }
+}
+@media screen and (max-width: 1185px) {
+    .Mother_H{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1540px) AND  (min-width: 1513px){
+    .HS{
+        margin-top: -19vw;
+    }
+}
+@media screen and (max-width: 1375px) {
+    .HS{
+        margin-top: -20vw;
+    }
+}
+@media screen and (max-width: 1240px) {
+    .HS{
+        margin-top: -6vw;
+    }
+}
+@media screen and (max-width: 1213px) {
+    .HS{
+        margin-top: 7vw;
+    }
+}
+@media screen and (max-width: 1184px) {
+    .HS{
+        margin-top: 18vw;
+    }
+}
+@media screen and (max-width: 1168px) {
+    .HS{
+        margin-top: 27vw;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .HS{
+        margin-top: 34vw;
+    }
+}
+@media screen and (max-width: 1144px) {
+    .HS{
+        margin-top: 42vw;
+    }
+}
+@media screen and (max-width: 1133px) {
+    .HS{
+        margin-top: 50vw;
+    }
+}
+@media screen and (max-width: 1126px) {
+    .HS{
+        margin-top: 55vw;
+    }
+}
+@media screen and (max-width: 1116px) {
+    .HS{
+        margin-top: 60vw;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .HS{
+        margin-top: 64vw;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .HS{
+        margin-top: 68vw;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .HS
+    {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1420px) {
+    .consolas{
+        margin-top: 17vw;
+    }
+}
+@media screen and (max-width: 1375px) {
+    .consolas{
+        margin-top: -8vw;
+    }
+}
+@media screen and (max-width: 1355px) {
+    .consolas{
+        margin-top: 5vw;
+    }
+}
+@media screen and (max-width: 1233px) {
+    .consolas{
+        margin-top: 13vw;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .consolas
+    {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1482px) {
+    .CN{
+        margin-top: 14vw;
+    }
+}
+@media screen and (max-width: 1375px) {
+    .CN{
+        margin-top: 3vw;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .CN{
+        margin-top: 11vw;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .CN
+    {
+        opacity: 0;
+    }
+}
+
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #e62e00, 0 0 10px #ff0202, 0 0 12px #6e3f29, 0 0 17px #7a6d6e, 0 0 20px #1b1518;
+      }
+      
+      to {
+        text-shadow: 0 0 1px #fff, 0 0 1px #d48b82, 0 0 3px #b6b6b6, 0 0 7px #bbb3b7, 0 0 10px #ffffff, 0 0 12px #adadad, 0 0 15px #ffffff;
+      }
+    }
+.img{
+    margin-right: 2%;
+    transition-duration: default;
+	transition-property: transform;
+    transition: all .2s ease-in-out;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+
+/*---------------------------------------------------------------------Pagina 6------------------------------------------------------------------------------*/
+
+
+.left6 {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.right6 {
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+.right6 h1{
+    font-family:undertale;
+    text-align: left;
+    font-size: 180%;
+    margin-bottom: 10px;
+}
+.container6{
+    margin: 2vh;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 10px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    line-height: 1.2;
+    padding: 10px;
+}
+.input{
+    display: inline;
+}
+.TotalBig{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.TotalSmall{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    display: none;
+}
+#reset2{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 145%;
+    margin-top: 43px;
+    margin:auto;
+    display: block;
+    float:right;
+}
+#reset2:hover{
+    color: #eeff00;
+    text-decoration: none;
+    font-size: 145%;
+    margin-top: 43px;
+    margin:auto;
+    display: block;
+    float:right;
+}
+.cora {
+    float: right;
+    width: 25%;
+}
+.br6_u{
+    display: none;
+}
+.br6_p{
+    display: none;
+}
+.br6_a{
+    display: none;
+}
+.br6_ce{
+    display: block;
+}
+.br6_ce{
+    display: none;
+}
+.br6_pa{
+    display: none;
+}
+.br6_ch{
+    display: none;
+}
+@media screen and (max-width: 650px) {
+    .cora {
+        float: right;
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1335px) {
+    .br6_u{
+        display: block;
+    }
+}
+@media screen and (max-width: 1112px) {
+    .br6_u{
+        display: none;
+    }
+    .br6_p{
+        display: block;
+    }
+}
+@media screen and (max-width: 988px) {
+    .left6{
+        display: none;
+    }
+    .right6 {
+        float: right;
+        width: 100%;
+        text-align: right;
+    }
+    .TotalSmall{
+        display: block;
+    }
+    .TotalBig{
+        display: none;
+    }
+    #reset2{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 145%;
+        margin-top: 43px;
+        margin:auto;
+        display: block;
+        float:left;
+    }
+    #reset2:hover{
+        color: #eeff00;
+        text-decoration: none;
+        font-size: 145%;
+        margin-top: 43px;
+        margin:auto;
+        display: block;
+        float:left;
+    }
+    .br6_u{
+        display: none;
+    }
+    .br6_p{
+        display: none;
+    }
+}
+@media screen and (max-width: 810px) {
+    .br6_u{
+        display: block;
+    }
+}
+@media screen and (max-width: 675px) {
+    .br6_u{
+        display: none;
+    }
+    .br6_p{
+        display: block;
+    }
+}
+@media screen and (max-width: 580px) {
+    .br6_a{
+        display: block;
+    }
+    .br6_ce{
+        display: none;
+    }
+    .br6_u{
+        display: block;
+    }
+}
+@media screen and (max-width: 573px) {
+    .br6_pa{
+        display: block;
+    }
+}
+@media screen and (max-width: 545px) {
+    .br6_ch{
+        display: block;
+    }
+}
+
+/*------------------------------------------------------------------------------Extras---------------------------------------------------------------------------*/
+
+
+
+.Imagenes_batalla{
+    width: 50%;
+    margin:auto;
+}
+section {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto 1em;
+    height: 150px;
+    border-radius: .2em;
+    position: relative;
+    color: white;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.ImagesSeparation{
+    width:100%
+}
+.help{
+    margin-bottom: 10px;
+    text-align: justify;
+    margin:auto;display: block;
+    border: 7px solid #ffffff;
+    background-color: #000000;
+    padding: 11px;
+    width: 92%;
+}
+.help p{
+    line-height: 1.2;
+     text-align: justify;
+}
+
+
+#container{
+    border: 20px solid #ffffff;
+    background-color: #000000;
+    width: 20%;
+    margin-left: 0cm;
+
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: right;
+}
+
+@keyframes slider{
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -97.5%;
+    }
+    40% {
+        left: -97.5%;
+    }
+    45% {
+        left: -196%;
+    }
+    60% {
+        left: -196%;
+    }
+    65% {
+        left: -294.5%;
+    }
+    80% {
+        left: -294.5%;
+    }
+    85% {
+        left: -392%;
+    }
+    100% {
+        left: -392%;
+    }
+}
+.shake {
+	display:inline-block
+}
+.shake {
+	display:block;
+	position:relative;
+}
+h2.shake,
+.shake.inline {
+	display:inline-block
+}
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
